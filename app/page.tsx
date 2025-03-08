@@ -13,75 +13,69 @@ const products = [
   {
     title: "Aloe Vera",
     link: "/plants/aloe-vera",
-    thumbnail: "./AloeVera.png",
+    thumbnail: "https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?q=80&w=3540&auto=format&fit=crop",
   },
   {
     title: "Tulsi (Holy Basil)",
     link: "/plants/tulsi",
-    thumbnail: "./Tulsi.png",
-  },
-  {
-    title: "Hibiscus",
-    link: "/plants/hibiscus",
-    thumbnail: "./Hibiscus.png",
-  },
-  {
-    title: "Neem",
-    link: "/plants/neem",
-    thumbnail: "./Neem.png",
+    thumbnail: "https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?q=80&w=3540&auto=format&fit=crop",
   },
   {
     title: "Turmeric",
     link: "/plants/turmeric",
-    thumbnail: "./Turmeric.png",
+    thumbnail: "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?q=80&w=3540&auto=format&fit=crop",
+  },
+  {
+    title: "Neem",
+    link: "/plants/neem",
+    thumbnail: "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=3540&auto=format&fit=crop",
+  },
+  {
+    title: "Ginger",
+    link: "/plants/ginger",
+    thumbnail: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=3540&auto=format&fit=crop",
   },
   {
     title: "Mint",
     link: "/plants/mint",
-    thumbnail: "./mint.jpg",
+    thumbnail: "https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?q=80&w=3540&auto=format&fit=crop",
   },
   {
     title: "Lavender",
     link: "/plants/lavender",
-    thumbnail: "./Lavender.png",
+    thumbnail: "https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?q=80&w=3540&auto=format&fit=crop",
   },
   {
     title: "Chamomile",
     link: "/plants/chamomile",
-    thumbnail: "./Chamomile.png",
+    thumbnail: "https://images.unsplash.com/photo-1596343621063-c7a7aaf37aa6?q=80&w=3540&auto=format&fit=crop",
   },
   {
     title: "Rosemary",
     link: "/plants/rosemary",
-    thumbnail: "./Rosemary.png",
+    thumbnail: "https://images.unsplash.com/photo-1515586000433-45406d8e6662?q=80&w=3540&auto=format&fit=crop",
   },
   {
     title: "Eucalyptus",
     link: "/plants/eucalyptus",
-    thumbnail: "./Eucalyptus.png",
+    thumbnail: "https://images.unsplash.com/photo-1597307985978-e43c3fa396f3?q=80&w=3540&auto=format&fit=crop",
   },
   {
     title: "Sage",
     link: "/plants/sage",
-    thumbnail: "./sage.png",
+    thumbnail: "https://images.unsplash.com/photo-1617314608196-356afaecfe7c?q=80&w=3540&auto=format&fit=crop",
   },
   {
     title: "Thyme",
     link: "/plants/thyme",
-    thumbnail: "./thyme.png",
+    thumbnail: "https://images.unsplash.com/photo-1606072104299-cdaab62c0a07?q=80&w=3540&auto=format&fit=crop",
   },
   {
-    title: "Rose",
+    title: "Roe",
     link: "/plants/rose",
-    thumbnail: "./rose.png",
-  },
-  {
-    title: "Mint",
-    link: "/plants/mint",
-    thumbnail: "./mint.png",
+    thumbnail: "https://images.unsplash.com/photo-1496062031456-07b8f162a322?q=80&w=3540&auto=format&fit=crop",
   },
 ];
-
 const features = [
   {
     icon: <Upload className="h-6 w-6" />,
