@@ -39,21 +39,21 @@ export function Footer() {
                         <h4 className="text-sm font-semibold mb-4">Connect</h4>
                         <div className="flex space-x-4">
                             <motion.a
-                                href="#"
+                                href="https://github.com/vjymisal0"
                                 whileHover={{ y: -2 }}
                                 className="text-gray-400 hover:text-white transition-colors"
                             >
                                 <Github className="h-5 w-5" />
                             </motion.a>
                             <motion.a
-                                href="#"
+                                href="https://x.com/me_vijay07"
                                 whileHover={{ y: -2 }}
                                 className="text-gray-400 hover:text-white transition-colors"
                             >
                                 <Twitter className="h-5 w-5" />
                             </motion.a>
                             <motion.a
-                                href="#"
+                                href="https://www.linkedin.com/in/vijaymisal/"
                                 whileHover={{ y: -2 }}
                                 className="text-gray-400 hover:text-white transition-colors"
                             >
@@ -70,7 +70,7 @@ export function Footer() {
                         </p>
                         <div className="flex items-center mt-4 md:mt-0">
                             <span className="text-sm text-gray-400 flex items-center">
-                                Made with <Heart className="h-4 w-4 mx-1 text-red-500" /> by Plant AI Team
+                                Made with <Heart className="h-4 w-4 mx-1 text-red-500" /> 
                             </span>
                         </div>
                     </div>
