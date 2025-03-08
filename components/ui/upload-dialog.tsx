@@ -54,7 +54,7 @@ export function UploadDialog({ open, onOpenChange }: { open: boolean; onOpenChan
         formData.append("file", selectedFile);
 
         try {
-            const response = await fetch("https://medicinal-plant-identification-5oe1.onrender.com/predict", {
+            const response = await fetch("http://localhost:5000/predict", {
                 method: "POST",
                 body: formData,
             });
