@@ -6,11 +6,15 @@ import { Button } from "@/components/ui/button";
 import { Upload, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 
+
 export function UploadDialog({ open, onOpenChange }: { open: boolean; onOpenChange: (open: boolean) => void }) {
     const router = useRouter();
     const [selectedFile, setSelectedFile] = useState<File | null>(null);
     const [dragActive, setDragActive] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
+
+
+
 
     const handleDrag = (e: React.DragEvent) => {
         e.preventDefault();
@@ -54,13 +58,14 @@ export function UploadDialog({ open, onOpenChange }: { open: boolean; onOpenChan
         formData.append("file", selectedFile);
 
         try {
-            const response = await fetch("http://localhost:5000/predict", {
+            const response = await fetch(`http://localhost:5000/predict`, {
                 method: "POST",
                 body: formData,
             });
-
+            
             if (response.ok) {
                 const data = await response.json();
+                console.log("file uploaded")
                 onOpenChange(false);
 
                 // Navigate to results page with the prediction data
